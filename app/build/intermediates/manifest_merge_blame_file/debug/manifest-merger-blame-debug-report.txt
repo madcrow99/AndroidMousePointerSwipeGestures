@@ -1,0 +1,57 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.testgest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml:5:5-26:19
+12        android:allowBackup="true"
+12-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] C:\Users\mjcro\.gradle\caches\transforms-3\750de65872f7f99f7d2d4aed8c833650\transformed\core-1.0.1\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml:10:9-35
+20        android:theme="@style/AppTheme" >
+20-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="com.example.testgest.GlobalActionBarService" />
+21-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml:12:9-69
+21-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml:12:19-57
+22
+23        <service
+23-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml:14:9-24:19
+24            android:name="com.example.testgest.GlobalActionBarService"
+24-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml:15:13-51
+25            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+25-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml:16:13-79
+26            <intent-filter>
+26-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml:17:13-19:29
+27                <action android:name="android.accessibilityservice.AccessibilityService" />
+27-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml:18:17-92
+27-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml:18:25-89
+28            </intent-filter>
+29
+30            <meta-data
+30-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml:21:13-23:69
+31                android:name="android.accessibilityservice"
+31-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml:22:17-60
+32                android:resource="@xml/global_action_bar_service" />
+32-->C:\Windows PC files\AndroidStudioProjects\testGest\app\src\main\AndroidManifest.xml:23:17-66
+33        </service>
+34    </application>
+35
+36</manifest>
